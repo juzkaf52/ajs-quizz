@@ -1,6 +1,6 @@
 // config.js — Shared across all pages
 // Replace this URL after deploying your Google Apps Script
-const API_URL = 'https://script.google.com/macros/s/AKfycbxh2Mnowl2-8rI-61Ez__nkRA0G2y0WA02eKo19ZfSTKWlgVAMT-NuCzGgy77JZBxB7TQ/exec';
+const API_URL = 'https://script.google.com/macros/s/AKfycbxOrWxV_t54JpgakoUaAJw2HLplEbyuGIQW5qbLcyTrErq_02FlSmW41HMBBwvv_-Gd2w/exec';
 
 async function api(action, payload = {}) {
   const res = await fetch(API_URL, {
